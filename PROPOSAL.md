@@ -18,13 +18,10 @@ The basic idea is to extract feature information on the packets from the traffic
 
 Dataset : 
 
-we are expecting to collect the dataset by using Zeus botnet toolkit into one machine and using the other machine to collect the network traffic. We are planning to implement, CONIFA, and the standard machine learning framework used by researchers in the literature in where they should contain both botnet and non-botnet network traffic. For botnet network traffic representation, Zeus will be considered as, it is one of the major threats, especially for online bank attacks. As the main goal of this experiment is to address the ability to detect the untrained version. For this experiment, we are focusing on collecting only the HTTP GET connection to increase the chances to identify the infected device before uploading/stealing any data from it.
-The afore mentioned sources ensure the variety of the collected HTTP network traffic in which they replicate the use of the internet in the real-life scenarios by different users. To build a classifier to detect botnet C&C traffic using the standard framework used by researchers, statistical features should first be identified. After that we are expecting to used Wireshark to detect statistical features from the data.
-
+we are expecting to collect the dataset by using Zeus botnet toolkit into one machine and using the other machine to collect the network traffic.,where they should contain both botnet and non-botnet network traffic. 
+The afore mentioned sources ensure the variety of the collected HTTP network traffic in which they replicate the use of the internet in the real-life scenarios by different users .After that we are expecting to used Wireshark to detect statistical features from the data.
 Techniques used: 
-
 Our aim is to implement exploratory data analysis and descriptive statistical techniques to learn more about the data , since this project is similar to the literature provided above we might be working on inferential statistics techniques to make a model which can be used on any datasets.
-we are hoping to work on decision trees, random forest, and other known algorithms to work on this. we are expecting to check which algorithm will be best case scenarios in working on it. 
 Since this is more of a classifying problem, so we might be focussing more toward classifying the data and working on it we are more inclined toward working on decision trees.
 
 Advantages of using a Decision tree as classifiers: -
@@ -40,11 +37,11 @@ Disadvantage
 
 K-10 cross validation
 
-Cross-validation, sometimes called rotation estimation, or out-of-sample testing is any of various similar model validation techniques for assessing how the results of a statistical analysis will generalize to an independent data set. The goal of cross-validation is to test the model’s ability to predict new data that was not used in estimating it, in order to flag problems like overfitting or selection bias and to give an insight on how the model will generalize to an independent dataset (i.e., an unknown dataset, for instance from a real problem).
+Cross-validation, sometimes called rotation estimation, or out-of-sample testing is any of various similar model validation techniques for assessing how the results of a statistical analysis will generalize to an independent data set.
+
 Project Plan:
 
 Week 10: Data Collecting   and wrangling
-
 1.      Discovering
 2.      Structuring
 3.      Cleaning
