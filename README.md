@@ -4,10 +4,13 @@ group-project-group-l created by GitHub Classroom
 #### SMOTE technique
 
 Created data_all by combining the two datasets that were available as it is i.e. imbalanced data, scenarios for a device being detected with a  botnet. Split the data into training and test dataset and applied SMOTE on the training data.
+
 ## FEATURE SELECTION USING EMBEDDED METHOD
+
 The reason we choose embedded method was because they are iterative in a sense that the model training process. Regularization techniques are more most commonly used in these techniques,lassoCV regularization is the basic of all the embedded methods.
 
 # Correlation between features
+
 Correlation technique to find out whether there is any relationship exist between the features, the correlation will help us to analyze data at more deep level.
 
 Correlation we have find strong positive relation and negative relations.Below are some examples:
@@ -19,3 +22,37 @@ Correlation we have find strong positive relation and negative relations.Below a
 3.)std_active and max_active has strong positive coorelation and std_active and duration has week positive realtion.
 
 Pairplot and confusion matrix are used to visualize the relationship between the variable.
+
+
+# Implementing different Modelling technique to calculate accuracy score, confusion matrix,precision value.
+
+
+## train_test_split function:
+
+The function will split the data into training and testing dataset.Training dataset is used for building the model and testing dataset is to using the model on different model to predict its performance.
+
+## Accuracy_score
+
+Accuracy_score is used to calculate accuracy of the model.Accuracy is defined to calculate no of correct predictions to the total no of predictions.Higher the value of accuracy score, gives more confident to the model to predict the correct output.
+
+
+## confusion_matrix
+
+confusion matrix is used to evaluate the quality of the output of a classifier on the data set.The diagonal values represents those number of points for which classifier has predicted the true label, while off-diagonal values are those that are not predict by the classifier. The higher the diagonal values of the confusion matrix the better is our model is.
+
+## precision value
+
+Precision is defined as the number of true positives values divided by the number of true positives plus the number of false positives values.
+
+
+## BernoulliNB Training
+
+Our data is categorical data, we need to detect on which IP server botnet is detected, so we are applying BernoulliNB technique and calculate the confusion matrix, accuracy score and precision value on test data set.
+
+## Decision Tree
+
+It is a technique that builds classification model in the form of tree like structure.It is used to specify the sequence of decision and consequences.
+
+
+
+
