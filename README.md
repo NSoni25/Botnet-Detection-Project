@@ -53,6 +53,14 @@ Our data is categorical data, we need to detect on which IP server botnet is det
 
 It is a technique that builds classification model in the form of tree like structure.It is used to specify the sequence of decision and consequences.
 
+## KNN Classifier
+
+It falls under supervised learning and is used for classification and regression when we know the attributes of the data. We classfiy a point depending upon the nearest neighbor values. It was found that the model predicts best when the k value is 3.
+
+## Accuracy Score and t-test
+
+Accuracy score is calculated using cross_val_score which calculates a range of the output depending upon the number of folds. Highest score range was observed to be in KNN classifier. Two sided hypothesis test was applied considering the significance level as 0.05. If the significance level greater than 0.05 then we do not reject the hypothesis test and our results are valid.
+
 
 
 
