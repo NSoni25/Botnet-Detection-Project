@@ -57,6 +57,10 @@ It is a technique that builds classification model in the form of tree like stru
 
 It falls under supervised learning and is used for classification and regression when we know the attributes of the data. We classfiy a point depending upon the nearest neighbor values. It was found that the model predicts best when the k value is 3.
 
+## NEURAL NETWORK : MULTILAYER PERCEPTRON 
+
+A multilayer perceptron (MLP) is a feedforward artificial neural network that generates a set of outputs from a set of inputs. An MLP is characterized by several layers of input nodes connected as a directed graph between the input and output layers. MLP uses backpropogation for training the network.
+
 ## Accuracy Score and t-test
 
 Accuracy score is calculated using cross_val_score which calculates a range of the output depending upon the number of folds. Highest score range was observed to be in KNN classifier. Two sided hypothesis test was applied considering the significance level as 0.05. If the significance level greater than 0.05 then we do not reject the hypothesis test and our results are valid.
