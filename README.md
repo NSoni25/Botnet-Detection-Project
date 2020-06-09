@@ -1,6 +1,41 @@
 # group-project-group-l
 group-project-group-l created by GitHub Classroom
 
+# Prerequisite Libraries
+numpy
+pandas
+warnings
+seaborn
+matplotlib
+from sklearn.linear_model import LassoCV
+from sklearn.model_selection import train_test_split
+from imblearn.over_sampling import SMOTE
+from sklearn.naive_bayes import BernoulliNB
+from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.ensemble import RandomForestClassifier
+from prettytable import PrettyTable
+from sklearn.model_selection import cross_val_score
+from scipy.stats import ttest_ind
+from sklearn.neural_network import MLPClassifier
+from sklearn.model_selection import GridSearchCV
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn import tree
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.preprocessing import OrdinalEncoder, LabelEncoder
+from sklearn.impute import SimpleImputer
+from sklearn.metrics import roc_curve, auc
+from collections import Counter
+from imblearn.over_sampling import SMOTE
+from sklearn.metrics import accuracy_score
+
+# Dataset
+There are two dataset for Botnet detection: Zeus.txt and normal.txt.
+First, we converted the dataset into csv format and the check the columns of the data.
+The Zeus.csv dataset contains the network protocol of Zeus and the other dataset Normal.csv doesn't. 
+we tracked the reserach paper and checked Dr Mamoun Alazab(https://sites.google.com/view/alazabm/dataset?authuser=0)'s work, and found the https://zeustracker.abuse.ch/ website that was used to collect the data. however, the website closed down on 27th july 2019. 
+we searched a bit more and found a link. https://www.aksingh.net/zeus-tracker-data-archived/
+
+
 #### SMOTE technique
 
 Created data_all by combining the two datasets that were available as it is i.e. imbalanced data, scenarios for a device being detected with a  botnet. Split the data into training and test dataset and applied SMOTE on the training data.
