@@ -114,7 +114,12 @@ Our data is categorical data, we need to detect on which IP server botnet is det
 
 ## Decision Tree
 
-It is a technique that builds classification model in the form of tree like structure.It is used to specify the sequence of decision and consequences.
+It is a technique that builds classification model in the form of tree like structure.It is used to specify the sequence of decision and consequences.Since our model is based on classification technique so I have implemented decision tree classifier technique in the botnet prediction.While Implemented Decision tree, I have visualize the model is the tree structure.
+For Implementing tree structure I have used labelEncoder and OrdinalEncoder.
+
+#labelEncoder: transform classes into integer.
+
+#OrdinalEncoder:transform categorical feature value into integer.
 
 ## KNN Classifier
 
