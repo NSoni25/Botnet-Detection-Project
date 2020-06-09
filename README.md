@@ -65,6 +65,10 @@ A multilayer perceptron (MLP) is a feedforward artificial neural network that ge
 
 Accuracy score is calculated using cross_val_score which calculates a range of the output depending upon the number of folds. Highest score range was observed to be in KNN classifier. Two sided hypothesis test was applied considering the significance level as 0.05. If the significance level greater than 0.05 then we do not reject the hypothesis test and our results are valid.
 
+## comparision between various model and choosing the final file 
+ now we have decided that we need to use decission tree for the project and we made a prediction file with random values 
+ and tested it.
+
 
 
 
